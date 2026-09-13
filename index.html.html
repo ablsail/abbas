@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة تصميم المواقع الإلكترونية | landing Page</title>
+    <!-- Google Fonts: Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src = "java.js"></script>
+
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <span>منصتي</span>
+            </div>
+            
+            <button class="mobile-menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">الرئيسية</a></li>
+                <li><a href="#features">المميزات</a></li>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#reviews">الآراء</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="btn btn-outline">تسجيل الدخول</button>
+                <button class="btn btn-primary">تجربة مجانية</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <h1 class="hero-title">صمم موقعك الإلكتروني الاحترافي<br>بكل سهولة وبدون خبرة برمجية</h1>
+            <p class="hero-subtitle">احصل على كافة الأدوات والحلول الذكية لبناء متجرك أو موقعك الشرير في دقائق معدودة مع دعم كامل للغة العربية.</p>
+            
+            <div class="hero-btns">
+                <button class="btn btn-primary"><i class="fa-solid fa-rocket"></i> ابدأ الآن مجاناً</button>
+                <button class="btn btn-outline" id="openVideoBtn"><i class="fa-solid fa-play"></i> مشاهدة الفيديو التوضيحي</button>
+            </div>
+
+            <div class="hero-image-container">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" alt="Workspace Mockup">
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Logos -->
+    <section class="logos-bar">
+        <div class="container">
+            <span class="section-tag">يثق بنا أكثر من 10,000 شركة ورائد أعمال</span>
+            <div class="logos-grid">
+                <div class="logo-item"><i class="fa-brands fa-google"></i> Google</div>
+                <div class="logo-item"><i class="fa-brands fa-microsoft"></i> Microsoft</div>
+                <div class="logo-item"><i class="fa-brands fa-shopify"></i> Shopify</div>
+                <div class="logo-item"><i class="fa-brands fa-amazon"></i> Amazon</div>
+                <div class="logo-item"><i class="fa-brands fa-stripe"></i> Stripe</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blue Featured Section -->
+    <section class="blue-card-section" id="features">
+        <div class="container">
+            <div class="blue-card">
+                <div class="blue-card-content">
+                    <h2 class="blue-card-title">تخصيص كامل وتصميم عصري يناسب علامتك التجارية</h2>
+                    <p class="blue-card-desc">اختر من بين مئات القوالب الجاهزة والمصممة بعناية لتناسب مختلف الأنشطة التجارية مع إمكانية السحب والإفلات بسهولة.</p>
+                    <button class="btn btn-dark">استكشف القوالب</button>
+                </div>
+                <div class="blue-card-media">
+                    <div class="mockup-ui">
+                        <div class="mockup-header">
+                            <div class="mockup-avatar">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="User">
+                            </div>
+                            <div>
+                                <strong style="display:block; font-size:14px;">سارة أحمد</strong>
+                                <span style="font-size:12px; color:#64748b;">مديرة تسويق</span>
+                            </div>
+                        </div>
+                        <p style="font-size:13px; color:#475569;">"المنصة وفرت علينا أسابيع من العمل المتواصل، النتيجة أذهلت الجميع!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- White Feature Highlight -->
+    <section class="white-card-section">
+        <div class="container">
+            <div class="white-card">
+                <div class="white-card-media">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=500&q=80" alt="Analytics">
+                </div>
+                <div class="white-card-content">
+                    <span class="section-tag">تحليلات دقيقة</span>
+                    <h2 style="font-size:26px; font-weight:800; margin-bottom:14px;">لوحة تحكم متكاملة ومتابعة لحظية</h2>
+                    <p style="color:var(--text-muted); font-size:15px; margin-bottom:20px;">تابِع أداء موقعك، عدد الزوار، والمبيعات من مكان واحد بفضل تقاريرنا المتقدمة والسهلة القراءة.</p>
+                    <button class="btn btn-primary">جرب اللوحة الآن</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Steps Stack -->
+    <section class="feature-stack-section">
+        <div class="container">
+            <h2 class="section-title">خطوات بسيطة لإطلاق موقعك</h2>
+            <p class="section-desc">كل ما تحتاجه للبدء في رحلتك الرقمية بنجاح</p>
+
+            <div class="stack-wrapper">
+                <!-- Step 1 -->
+                <div class="stack-item">
+                    <div class="stack-text">
+                        <span class="section-tag">01. اختر القالب</span>
+                        <h3>تصفح القوالب المصممة احترافياً</h3>
+                        <p>مجموعة واسعة من التصاميم العصرية المناسبة للمتاجر، المدونات، والمواقع التعريفية.</p>
+                        <a href="#" style="color:var(--primary-blue); font-weight:700;">معرفة المزيد <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                    <div class="stack-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Step 1">
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="stack-item reverse">
+                    <div class="stack-text">
+                        <span class="section-tag">02. أضف المحتوى</span>
+                        <h3>محرر ذكي وسهل الاستخدام</h3>
+                        <p>عدّل النصوص، الألوان، الصور، والمنتجات بكل سرعة ومرونة دون الحاجة لأي كود.</p>
+                        <a href="#" style="color:var(--primary-blue); font-weight:700;">معرفة المزيد <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                    <div class="stack-image">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=600&q=80" alt="Step 2">
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="stack-item">
+                    <div class="stack-text">
+                        <span class="section-tag">03. انطلق فوراً</span>
+                        <h3>ربط النطاق وبدء البيع</h3>
+                        <p>اربط دومينك الخاص بضغطة زر وابدأ باستقبال الزوار والعملاء فوراً مع حماية SSL مجانية.</p>
+                        <a href="#" style="color:var(--primary-blue); font-weight:700;">معرفة المزيد <i class="fa-solid fa-arrow-left"></i></a>
+                    </div>
+                    <div class="stack-image">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=600&q=80" alt="Step 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dark Banner -->
+    <section class="dark-banner-section">
+        <div class="container">
+            <div class="dark-banner">
+                <h2>جاهز لبدء مشروعك القادم؟</h2>
+                <p>انضم لآلاف الشركات التي تثق بلمستنا وتعتمد على حلولنا الذكية يومياً.</p>
+                <button class="btn btn-primary" style="padding:14px 32px; font-size:16px;">ابدأ تجربتك المجانية الآن</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4 Colored App Integration Cards -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2 class="section-title">خدمات وتكاملات لا محدودة</h2>
+            <p class="section-desc">اربط موقعك مع أشهر أدوات الدفع والتسويق والشحن</p>
+
+            <div class="cards-grid">
+                <div class="service-card card-yellow">
+                    <div class="service-icon" style="color: #d97706;"><i class="fa-solid fa-bolt"></i></div>
+                    <h3 class="service-title">سرعة فائقة</h3>
+                    <p class="service-desc">استضافة سحابية متطورة تضمن تحميل موقعك في أجزاء من الثانية.</p>
+                </div>
+
+                <div class="service-card card-purple">
+                    <div class="service-icon" style="color: #9333ea;"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3 class="service-title">أمان عالي</h3>
+                    <p class="service-desc">حماية مستمرة وضمان عدم انقطاع الخدمة مع نسخ احتياطي تلقائي.</p>
+                </div>
+
+                <div class="service-card card-blue">
+                    <div class="service-icon" style="color: #2563eb;"><i class="fa-solid fa-credit-card"></i></div>
+                    <h3 class="service-title">بوابات دفع</h3>
+                    <p class="service-desc">دعم مدى، فيزا، ماستركارد، وApple Pay بأسعار تنافسية.</p>
+                </div>
+
+                <div class="service-card card-green">
+                    <div class="service-icon" style="color: #16a34a;"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3 class="service-title">تحسين SEO</h3>
+                    <p class="service-desc">أدوات مدمجة لمساعدتك على الظهور في الصفحة الأولى لمقترحات محركات البحث.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats-section">
+        <div class="container">
+            <h2 class="section-title">أرقام تتحدث عن نجاحنا</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="counter" data-target="15000">0</h3>
+                    <p>موقع نشط</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="counter" data-target="99">0</h3>
+                    <p>نسبة استقرار الخدمة (%)</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>دعم فني متواصل</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile / App Showcase Card -->
+    <section class="app-preview-section">
+        <div class="container">
+            <div class="app-preview-card">
+                <span class="section-tag" style="color:#60a5fa;">تطبيق الهاتف المحمول</span>
+                <h2 style="font-size:28px; margin-top:8px;">أدر أعمالك مباشرة من هاتفك الذكي</h2>
+                <p style="color:#94a3b8; max-width:500px; margin:10px auto 0;">حمل تطبيقنا المتاح على Android و iOS وتابع الطلبات والتنبيهات أولاً بأول.</p>
+                <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=900&q=80" alt="App Preview">
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="reviews-section" id="reviews">
+        <div class="container">
+            <h2 class="section-title">ماذا يقول عملاؤنا؟</h2>
+            <p class="section-desc">قصص نجاح حقيقية لشركاء استطاعوا نمو أعمالهم معنا</p>
+
+            <div class="reviews-slider">
+                <div class="review-card active">
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"بناء موقعنا التجاري كان تجربة سهلة وممتعة جداً. خدمة العملاء متجاوبة والدعم الفني ممتاز!"</p>
+                    <div class="review-user">
+                        <img class="review-avatar" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="User">
+                        <div style="text-align:right;">
+                            <strong style="display:block; font-size:15px;">محمد العتيبي</strong>
+                            <span style="font-size:12px; color:#64748b;">مؤسس متجر ركن التقنية</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="review-text">"أفضل منصة استخدمتها للمتاجر العربية، السلاسة والسرعة وخدمات الدفع المدمجة أحدثت فرقاً كبيراً معنا."</p>
+                    <div class="review-user">
+                        <img class="review-avatar" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="User">
+                        <div style="text-align:right;">
+                            <strong style="display:block; font-size:15px;">نورة الشمري</strong>
+                            <span style="font-size:12px; color:#64748b;">مصممة أزياء</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="review-controls">
+                    <span class="review-dot active" onclick="showReview(0)"></span>
+                    <span class="review-dot" onclick="showReview(1)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section" id="contact">
+        <div class="container">
+            <div style="text-align:center; margin-bottom:20px;">
+                <h2 class="section-title">اشترك في نشرتنا البريدية</h2>
+                <p class="section-desc">احصل على أحدث المقالات والميزات مباشرة في بريدك الإلكتروني</p>
+            </div>
+            <form class="newsletter-box" id="newsletterForm">
+                <input type="email" class="newsletter-input" placeholder="أدخل بريدك الإلكتروني..." required>
+                <button type="submit" class="btn btn-primary" style="padding:12px 28px;">اشترك الآن</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div class="modal-overlay" id="videoModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeVideoBtn">&times;</button>
+            <div class="video-container">
+                <iframe id="videoIframe" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo" style="margin-bottom:16px;">
+                        <div class="logo-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <span>منصتي</span>
+                    </div>
+                    <p style="color:var(--text-muted); font-size:14px; max-width:280px; line-height:1.7;">المنصة الأولى المبتكرة لبناء المواقع والمتاجر الإلكترونية في العالم العربي بخطوات بسيطة ونتائج احترافية.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>الروابط السريعة</h4>
+                    <ul>
+                        <li><a href="#hero">الرئيسية</a></li>
+                        <li><a href="#features">المميزات</a></li>
+                        <li><a href="#services">الخدمات</a></li>
+                        <li><a href="#">الأسعار</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>الخدمات</h4>
+                    <ul>
+                        <li><a href="#">تصميم المتاجر</a></li>
+                        <li><a href="#">استضافة المواقع</a></li>
+                        <li><a href="#">حجز الدومينات</a></li>
+                        <li><a href="#">التسويق الرقمي</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>الدعم والتعليمات</h4>
+                    <ul>
+                        <li><a href="#">مركز المساعدة</a></li>
+                        <li><a href="#">الأسئلة الشائعة</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">الشروط والأحكام</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 جميع الحقوق محفوظة لمنصة منصتي.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
